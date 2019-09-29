@@ -17,7 +17,7 @@ E.g.
 
 For simplicity, you can assume that no negative numbers will be passed in and all inputs we will be passing it for assessment will be valid (we won't be passing in characters or empty strings: a,2,,3)
 
-### `npm start`
+### `npm install && npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
