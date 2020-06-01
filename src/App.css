@@ -1,14 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.btn {
+  outline: none;
+  border: none;
+  background: #1e9ded;
+  width: 150px;
+  height: 40px;
+  margin: 5%;
+  font-family: inherit;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
+.btn:hover,
+:active,
+:focus {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 20px;
+  color: #949494;
+  font-weight: lighter;
+}
+
+input {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #e5e5e5;
+  margin-top: 5%;
+}
+input:hover, :focus, :active {
+  border: 1px solid #5e20af;
+  padding: 5px;
+}
+
+
+.card {
+  background-color: #f5f5f5;
+  padding: 10rem;
+  color: #222;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.label {
+}
+.reg {
+  font-size: 14px;
+  display: block;
+}
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
